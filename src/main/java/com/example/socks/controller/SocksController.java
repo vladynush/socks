@@ -22,7 +22,7 @@ public class SocksController {
         srv.removeSocks(socks);
     }
     
-    @GetMapping(value = "/")
+    @GetMapping(value = "")
     public Integer getNumberOfSocks(@RequestParam String color,
                                     @RequestParam String operation,
                                     @RequestParam Integer cottonPart) {
